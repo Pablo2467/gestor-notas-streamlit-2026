@@ -21,7 +21,7 @@ def calcular_porcentaje_evaluado_corte(actividades):
 
 def calcular_resumen_asignatura(asignatura_id):
     """
-    Devuelve: nota_acumulada, porcentaje_evaluado_total (0-100), es_final (bool)
+    Devuelve: nota_acumulada, porcentaje_evaluado_total (0-100), es_final (bool)0
     """
     cortes = db.obtener_cortes(asignatura_id)
     nota_acumulada = 0.0
