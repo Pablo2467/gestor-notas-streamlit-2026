@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import plotly.express as px
 st.set_page_config(page_title="Calculadora IMC", page_icon="궬궨궭궮궯")
 st.title("Calculadora de IMC")
 
